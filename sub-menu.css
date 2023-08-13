@@ -19,8 +19,17 @@ header{
     justify-content: center;
     align-items: center;
     background-color: black;
+    box-shadow: 0 0 30px rgba(29, 29, 29, 0.593);
     width: 1865px;
     height: 80px;
+
+}
+
+header h1{
+
+    color: white;
+    position: relative;
+    right: 50px;
 
 }
 
@@ -69,7 +78,7 @@ header{
     display: none;
     flex-direction: column;
     background-color: rgb(67, 67, 67);
-    left: 823px;
+    left: 897px;
     top: 56px;
     width: 140px;
     height: 189px;
