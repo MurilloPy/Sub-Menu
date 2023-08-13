@@ -48,6 +48,12 @@ header{
 
 }
 
+.menu a:hover{
+
+    color: rgb(255, 108, 40);
+
+}
+
 .menu li{
 
     list-style: none;
@@ -64,9 +70,15 @@ header{
     flex-direction: column;
     background-color: rgb(67, 67, 67);
     left: 823px;
-    top: 58px;
+    top: 56px;
     width: 140px;
     height: 189px;
+
+}
+
+.menu-dropdown:hover .dropdown-items{
+
+    display: flex;
 
 }
 
